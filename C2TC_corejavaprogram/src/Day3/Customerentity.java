@@ -26,7 +26,7 @@ public class Customerentity {
 	@Override
 	public String toString() {
 		return "Customerentity [id=" + id + ", name=" + name + ", city=" + city + ", getId()=" + getId()
-				+ ", getName()=" + getName() + ", getCity()=" + getCity() +  "]";
+				+ ", getName()=" + getName() + ", getCity()=" + getCity() + "]";
 	}
 	
 	
