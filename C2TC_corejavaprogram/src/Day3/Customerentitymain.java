@@ -15,7 +15,6 @@ public class Customerentitymain {
 		System.out.print(cu1);
 		
 		
-		
 	}
 
 }

@@ -4,6 +4,7 @@ public class Customerentity {
 	private int id;
 	private String name;
 	private String city;
+	
 	public int getId() {
 		return id;
 	}
@@ -25,8 +26,7 @@ public class Customerentity {
 	@Override
 	public String toString() {
 		return "Customerentity [id=" + id + ", name=" + name + ", city=" + city + ", getId()=" + getId()
-				+ ", getName()=" + getName() + ", getCity()=" + getCity() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+				+ ", getName()=" + getName() + ", getCity()=" + getCity() +  "]";
 	}
 	
 	
