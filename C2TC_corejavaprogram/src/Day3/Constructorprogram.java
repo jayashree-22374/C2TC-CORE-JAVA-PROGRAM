@@ -4,19 +4,19 @@ public class Constructorprogram {
 		private int id;
 		private String name;
 		private String city;
-		public Constructorprogram(){
+		public Constructorprogram(){   // default constructor
 			this.id=101;
 			this.name="Jayashree";
 			this.city="Chennai";
 		}
 		public Constructorprogram(int id,String name) {
-			this.id=103;
-			this.name="Pune";
+			this.id=id;
+			this.name=name;
 		}
 		public Constructorprogram(int id,String name,String city) {
-			this.id=102;
-			this.name="jack";
-			this.city="Banglore";
+			this.id=id;
+			this.name=name;
+			this.city=city;
 		}
 		public int getId() {
 			return id;
