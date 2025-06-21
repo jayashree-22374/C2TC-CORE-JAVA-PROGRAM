@@ -9,11 +9,11 @@ public class Constructorprogram {
 			this.name="Jayashree";
 			this.city="Chennai";
 		}
-		public Constructorprogram(int id,String name) {
+		public Constructorprogram(int id,String name) {  // parameterized constructor
 			this.id=id;
 			this.name=name;
 		}
-		public Constructorprogram(int id,String name,String city) {
+		public Constructorprogram(int id,String name,String city) {  // parameterized constructor
 			this.id=id;
 			this.name=name;
 			this.city=city;
