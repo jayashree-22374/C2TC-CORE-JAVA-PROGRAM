@@ -1,6 +1,6 @@
 package day5.multiLevelInheritance.TextEditor;
 
-public class Word  extends Wordpad {
+public class Word  extends WordPad {
 	 private boolean spellCheckEnabled;
 
 	    public Word() {

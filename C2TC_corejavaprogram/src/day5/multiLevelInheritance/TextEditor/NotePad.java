@@ -1,9 +1,10 @@
 package day5.multiLevelInheritance.TextEditor;
 
 public class NotePad {
+	
 	 protected String content;
 
-	    public Notepad() {
+	    public NotePad() {
 	        this.content = "";
 	    }
 

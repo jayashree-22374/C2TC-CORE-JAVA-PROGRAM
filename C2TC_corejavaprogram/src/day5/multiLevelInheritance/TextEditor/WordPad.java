@@ -3,7 +3,7 @@ package day5.multiLevelInheritance.TextEditor;
 public class WordPad extends NotePad {
 	 private boolean isBold;
 
-	    public Wordpad() {
+	    public WordPad() {
 	        super();
 	        this.isBold = false;
 	    }
